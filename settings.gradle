@@ -5,4 +5,7 @@ pluginManagement {
 }
 rootProject.name = 'kodilla-course'
 include 'kodilla-testing'
+include 'kodilla-testing1'
+findProject(':kodilla-testing1')?.name = 'kodilla-testing'
+include 'kodilla-testing'
 
